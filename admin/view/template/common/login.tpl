@@ -31,9 +31,11 @@
                 <div class="input-group"><span class="input-group-addon"><i class="fa fa-lock"></i></span>
                   <input type="password" name="password" value="<?php echo $password; ?>" placeholder="<?php echo $entry_password; ?>" id="input-password" class="form-control" />
                 </div>
-                <?php if ($forgotten) { ?>
+                <br />
+                <br />
+                <!-- <?php if ($forgotten) { ?>
                 <span class="help-block"><a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a></span>
-                <?php } ?>
+                <?php } ?> -->
               </div>
               <div class="text-right">
                 <button type="submit" class="btn btn-primary"><i class="fa fa-key"></i> <?php echo $button_login; ?></button>
